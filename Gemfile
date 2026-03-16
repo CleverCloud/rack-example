@@ -1,5 +1,8 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rack', '~>1.5.1'
+ruby ">= 3.3"
 
-gem "puma", "~> 3.12"
+gem "logger"
+gem "rack", "~> 3.2"
+gem "rackup", "~> 2.3"
+gem "puma", "~> 7.2"
